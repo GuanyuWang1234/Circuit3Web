@@ -1,5 +1,5 @@
 .hero {
-    align-items: flex-end;
+    align-items: flex-start;
     display: flex;
     margin: 0 auto;
     max-width: var(--size-max-width);
@@ -13,7 +13,7 @@
       Ensure golden ratio for the hero size while limiting it to some extend to
       the viewport width
     */
-    height: 100.8vh;
+    height: 61.8vh;
     max-height: 560px;
     width: 100%;
   }
@@ -24,7 +24,7 @@
     max-width: 40rem;
     width: 85%;
     padding: var(--space-2xl) var(--size-gutter) 0;
-    position: absolute;
+    position: relative;
   }
   
   .title {

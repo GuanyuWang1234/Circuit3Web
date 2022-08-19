@@ -2,15 +2,15 @@ import React from 'react'
 import { StaticImage } from 'gatsby-plugin-image'
 import { renderRichText } from 'gatsby-source-contentful/rich-text'
 
-import * as styles from './hero.module.css'
+import * as styles from './hero4.module.css'
 
-const Hero = ({ image, title, content }) => (
+const Hero4 = ({ image, title, content }) => (
   <div className={styles.hero}>
     {image && (
       <StaticImage
         className={styles.image}
         alt={title}
-        src="https://i.imgur.com/UDnUwmR.jpg"
+        src="https://i.imgur.com/0M8GHba.jpg"
       />
     )}
     <div className={styles.details}>
@@ -22,4 +22,4 @@ const Hero = ({ image, title, content }) => (
   </div>
 )
 
-export default Hero
+export default Hero4
